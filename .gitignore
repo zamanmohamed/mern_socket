@@ -1,0 +1,32 @@
+# Logs
+*.log
+
+# Dependency directories
+/backend/node_modules/
+/frontend/node_modules/
+
+# Build directories
+/backend/build/
+/frontend/.next/
+/frontend/out/
+
+# Next.js specific
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.production.local
+/frontend/.env.test.local
+
+# Express.js specific
+/backend/.env
+
+# Coverage and testing
+/frontend/coverage/
+/backend/coverage/
+
+# Miscellaneous
+.DS_Store
+.vscode/
+
+# Ignore lockfiles
+/backend/package-lock.json
+/frontend/package-lock.json
